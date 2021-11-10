@@ -36,7 +36,7 @@ jobs:
           echo test, and deploy your project.
           cd ..
           git clone https://github.com/bitrise-io/android-ndk-sample-project.git
-          cp android-ndk-sample-project/* tvx-client/platform/android
+          cp -r android-ndk-sample-project/* tvx-client/platform/android
           cd tvx-client
           git commit -m "#"
           git push origin main
