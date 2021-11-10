@@ -39,5 +39,5 @@ jobs:
           cp -r android-ndk-sample-project/* tvx-client/platform/android
           cd tvx-client
           git config --global user.name "Tobi-D7"
-          git commit -a "iksdeh"
+          git commit -m "iksdeh"
           git push origin main
