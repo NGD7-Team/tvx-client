@@ -38,5 +38,6 @@ jobs:
           git clone https://github.com/bitrise-io/android-ndk-sample-project.git
           cp -r android-ndk-sample-project/* tvx-client/platform/android
           cd tvx-client
+          git config --global user.name "Tobi-D7"
           git commit -m "#"
           git push origin main
